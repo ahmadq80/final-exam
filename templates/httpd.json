@@ -35,7 +35,7 @@
           {
             "name": "web",
             "port": 9080,
-            "targetPort": 9080
+            "targetPort": 8080
           }
         ],
         "selector": {
@@ -182,7 +182,7 @@
                 "image": " ",
                 "ports": [
                   {
-                    "containerPort": 9080
+                    "containerPort": 8080
                   }
                 ],
                 "readinessProbe": {
